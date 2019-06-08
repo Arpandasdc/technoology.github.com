@@ -1,0 +1,688 @@
+@font-face
+{
+    font-family: SegoeUI;
+    src: url('../font/segoeui.woff');
+}
+.nopad
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+a 
+{
+    text-decoration: none;
+}
+
+.mob
+{
+    display: none;
+
+}
+
+.mob1
+{
+    display: none;
+    
+}
+/*----------------nav------------------------*/
+ul
+{
+    list-style: none;
+}
+.navtext
+{
+    font-family: SegoeUI;
+    font-size: 16px;
+    color: #5B5B5B;
+}
+
+.navtext > a
+{
+    font-size: 14px;
+    color: #5B5B5B;
+    transform: scale(1);
+}
+
+.navtext > a:hover
+{
+    font-size: 14px;
+    color: #5B5B5B;
+    text-decoration: none;
+    transform: scale(1);
+
+}
+.logo
+{
+    padding-top: 15px;
+
+}
+.nav
+{
+    padding-top: 15px;
+}
+.pad
+{
+    padding-bottom: 20px;
+}
+
+.mob
+{
+    display: none;
+    
+}
+/*----------------ban------------------------*/
+.over
+{
+ position: absolute;
+ z-index: 99999999;
+ top:116px;
+ 
+}
+.over1
+{
+    font-family: SegoeUI;
+    font-size: 35px;
+    color: #1D1D1D;
+    
+    margin-top: 78px;
+    margin-left: 35px;
+    margin-bottom: 0px;
+    
+}
+
+.over2
+{
+    font-family: SegoeUI;
+    font-size: 18px;
+    color: #232323;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.over > a
+{
+    color: rgb(255, 255, 255);
+    font-size: 16;
+    font-family: SegoeUI;
+    background: #111111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 35px;
+    
+    
+}
+
+.over > a:hover
+{
+   color: #111111;
+   font-size: 16;
+   font-family: SegoeUI;
+   background: rgb(255, 255, 255);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 35px;
+   padding-left: 35px;
+   margin-left: 35px;
+}
+
+.ban > a:hover
+{
+    text-decoration: none;
+}
+.carousel-item{ background:#ccc; }
+/*----------------product------------------------*/
+.producttext
+{
+    font-size: 20px;
+    font-family: SegoeUI;
+    color: #000000;
+    padding-top: 35px;
+    font-weight: 600;
+    
+
+}
+span
+{
+    font-family: SegoeUI;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 3px;
+
+}
+
+/*---------------------item product------------------------------*/
+
+.iteampad
+{
+    padding-top: 25px;
+}
+.b-0 {
+    bottom: 0;
+}
+.bg-shadow {
+    background: rgba(76, 76, 76, 0);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
+    background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+}
+.overflow {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+    transition: all 0.2s linear;
+}
+.zoom:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+a:hover
+{
+    text-decoration: none;
+}
+.tt
+{
+    font-family: SegoeUI;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+
+    
+}
+
+.tt1
+{
+    font-family: SegoeUI;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+.bt
+{
+    text-align: right;
+}
+
+.bt > a
+{
+    text-decoration: none;
+    color: #000000;
+    font-family: SegoeUI;
+    font-size: 16px;
+    text-align: right;
+
+}
+.bt > a:hover
+{
+    text-decoration: none;
+}
+
+/*---------------------2nd ban------------------------------*/
+.producttext2
+{
+    font-size: 20px;
+    font-family: SegoeUI;
+    color: #000000;
+    padding-top: 35px;
+    font-weight: 600;
+    
+    
+
+}
+.gap
+{
+    padding-top: 40px;
+}
+.ban
+{
+    
+    background: #F2F2F2;
+    
+    
+    
+}
+.bantext1
+{
+    font-family: SegoeUI;
+    font-size: 35px;
+    color: #1D1D1D;
+    background: #F2F2F2;
+    margin-top: 78px;
+    margin-left: 35px;
+    margin-bottom: 0px;
+    
+}
+
+.bantext
+{
+    font-family: SegoeUI;
+    font-size: 14px;
+    color: #5B5B5B;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.ban > a
+{
+    color: rgb(255, 255, 255);
+    font-size: 16;
+    font-family: SegoeUI;
+    background: #111111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 35px;
+    
+    
+}
+
+.ban > a:hover
+{
+    text-decoration: none;
+}
+
+.producttext3
+{
+    font-size: 20px;
+    font-family: SegoeUI;
+    color: #000000;
+    padding-top: 35px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    
+    
+
+}
+/*------------------ ----foot------------------------------*/
+.foot
+{
+    
+    background: #F2F2F2;
+    margin-top: 30px;
+    
+    
+}
+
+.foottext >a
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    
+    font-family: SegoeUI;
+    text-align: center;
+
+}
+.foottext >a:hover
+{
+    text-decoration: none;
+    
+
+}
+
+.firsta
+{
+    font-weight: 600;
+    font-size: 16px;
+}
+.a2
+{
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #686868;
+}
+
+.von
+{
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.con >a
+{
+    text-decoration: none;
+    color: #1D1D1D;
+    font-size: 16px;
+}
+.icon > i
+{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.copy
+{
+    text-align: right;
+    font-size: 12px;
+    color: #5a5a5a;
+}
+.us
+{
+    text-align: left;
+    font-size: 16px;
+    color: #1D1D1D;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px)
+{
+    .mob
+    {
+        display: block;
+        
+    }
+    .mob1
+    {
+        display: none;
+        
+    }
+    .desk
+    {
+        display: none;
+
+    }
+    .desk1
+    {
+        display: block;
+
+    }
+    .over
+    {
+     position: absolute;
+     z-index: 999999;
+     top:116px;
+     
+ }
+ .over1
+ {
+    font-family: SegoeUI;
+    font-size: 35px;
+    color: #1D1D1D;
+    
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-bottom: 0px;
+    
+}
+
+.over2
+{
+    font-family: SegoeUI;
+    font-size: 18px;
+    color: #232323;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.over > a
+{
+    color: rgb(255, 255, 255);
+    font-size: 16;
+    font-family: SegoeUI;
+    background: #111111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 35px;
+    
+    
+}
+
+
+/*---------------------item product------------------------------*/
+.tt
+{
+    font-family: SegoeUI;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+.tt1
+{
+    font-family: SegoeUI;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+
+
+/*---------------------2nd ban------------------------------*/
+
+.ban
+{
+    
+    background: #F2F2F2;
+    
+    
+    
+}
+.bantext1
+{
+    font-family: SegoeUI;
+    font-size: 25px;
+    color: #1D1D1D;
+    background: #F2F2F2;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    
+}
+
+.bantext
+{
+    font-family: SegoeUI;
+    font-size: 14px;
+    color: #5B5B5B;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.ban > a
+{
+    color: rgb(255, 255, 255);
+    font-size: 16;
+    font-family: SegoeUI;
+    background: #111111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 25px;
+    
+    
+}
+
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px)
+{
+    .desk
+    {
+        display: none;
+
+    }
+
+    .desk1
+    {
+        display: none;
+
+    }
+
+    .mob
+    {
+        display: block;
+
+    }
+
+    .mob1
+    {
+        display: block;
+        
+    }
+
+    .over
+    {
+     position: absolute;
+     z-index: 9999;
+     top:50px;
+     
+ }
+
+ .over1
+ {
+    font-family: SegoeUI;
+    font-size: 26px;
+    color: #1D1D1D;
+    
+    margin-top: 49px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.over2
+{
+    font-family: SegoeUI;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.over > a
+{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: SegoeUI;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 0px;
+    
+    
+}
+/*---------------------item product------------------------------*/
+.tt
+{
+    font-family: SegoeUI;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+.tt1
+{
+    font-family: SegoeUI;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+.uu
+{
+    margin-top: 30px;
+}
+
+/*---------------------2nd ban------------------------------*/
+.ban
+{
+    
+    background: #F2F2F2;
+    padding-bottom: 55px
+    
+    
+}
+.bantext1
+{
+    font-family: SegoeUI;
+    font-size: 30px;
+    color: #1D1D1D;
+    background: #F2F2F2;
+    margin-top: 78px;
+    margin-left: 65px;
+    margin-bottom: 0px;
+    
+}
+
+.bantext
+{
+    font-family: SegoeUI;
+    font-size: 14px;
+    color: #5B5B5B;
+    margin-top: 2px;
+    margin-left: 65px;
+    margin-bottom: 30px;
+}
+
+.ban > a
+{
+    color: rgb(255, 255, 255);
+    font-size: 16;
+    font-family: SegoeUI;
+    background: #111111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-left: 65px;
+    
+    
+}
+
+.ban > a:hover
+{
+    text-decoration: none;
+}
+
+.producttext3
+{
+    font-size: 20px;
+    font-family: SegoeUI;
+    color: #000000;
+    padding-top: 35px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    
+    
+
+}
+
+/*---------------------footer------------------------------*/
+
+.kk
+{
+    margin-bottom: 15px;
+}
+
+
+}
